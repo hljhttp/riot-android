@@ -12,9 +12,14 @@ Improvements:
  -
 
 Other changes:
- -
+ - Piwik SDK has been replaced by Matomo SDK (#3163)
 
 Bugfix:
+ - Fix / Illegal States exceptions when starting event stream service X
+ - Fix / Keys Backup can be setup twice #9510
+ - Fix / Infinite logout screen when token invalidated
+ - Fix / Export keys not possible when no network (airplane)
+ - Fix / crash in logout success
  - Fix / Crash when session store is null in event stream #3158
 
 Translations:
